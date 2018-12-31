@@ -2,27 +2,75 @@
 <html>
   <head>
     <title>Car Companies</title>
+    <style>
+      .categoryLink {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      a {
+        color: white;
+      }
+      li {
+        width: 100%;
+        margin-top: 50px;
+      }
+
+      #currLink {
+        background: black;
+      }
+    </style>
   </head>
-  <body style="">
+  <body
+    style="background: black; color : white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+  >
     <div style="text-align : center">
       <h1>
         <img
-          src="http://pngimg.com/uploads/rolls_royce/rolls_royce_PNG3.png"
-          alt="vintage RR"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWstQ89eaxj9IShX6XEG3trMkn8jcH7CZBf_oI1zi6KivNled"
+          alt="Austin Martin cartoon"
           height="70"
-          width="100"
+          width="130"
         />
-        <u>Car Makers</u>
+        Car Makers
       </h1>
     </div>
     <div>
-      <div style="width : 20%; float : left">
-        <a href="./src/vintage.html">Vintage Car Companies</a><br /><br />
-        <a href="./src/classic.html">Classic Car Companies</a><br /><br />
-        <a href="./src/antique.html">Antique Car Companies</a><br /><br />
+      <div style="width : 20%; height : 100%; float : left; background : grey">
+        <table style="border : 0px; width: 100%">
+          <tr id="currLink">
+            <td>
+              <a href="/index.html" class="categoryLink"
+                >Sports Car Companies</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="/src/vintage.html" class="categoryLink"
+                >Vintage Car Companies</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="/src/classic.html" class="categoryLink"
+                >Classic Car Companies</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="/src/antique.html" class="categoryLink"
+                >Antique Car Companies</a
+              >
+            </td>
+          </tr>
+        </table>
       </div>
       <div style="text-align : center">
-        <table border="1" style="border: 1px solid black">
+        <table border="1" style="border: 1px solid white">
           <thead>
             <tr>
               <th style="font-size: 12">Name</th>
