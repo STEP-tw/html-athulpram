@@ -1,0 +1,22 @@
+.categoryLink {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.categoryLink:hover {
+  color: #101010;
+}
+
+a {
+  color: white;
+}
+
+li {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#currLink {
+  background: black;
+}
